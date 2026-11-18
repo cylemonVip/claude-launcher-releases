@@ -4,7 +4,7 @@
 
 **[下载最新版本](https://github.com/cylemonVip/claude-launcher-releases/releases/latest)** · 当前公开版本 **3.1.2** · Apple Silicon Mac／macOS 14+
 
-3.1.2 支持保存多条代理订阅，连接时选择其中一条，并换上陶土橙与暖米白的新图标。安装包已完成 Developer ID 签名和 Apple 公证，并通过 Gatekeeper 与解包检查。[3.1.2 发行说明](https://github.com/cylemonVip/claude-launcher-releases/releases/tag/v3.1.2)
+3.1.2 支持保存多条代理订阅。安装包已完成 Developer ID 签名和 Apple 公证，并通过 Gatekeeper 与解包检查。[3.1.2 发行说明](https://github.com/cylemonVip/claude-launcher-releases/releases/tag/v3.1.2)
 
 干净 Mac 首次安装、完整系统故障矩阵和公网邮件登录的完整流程尚未完成实机验收。初版功能及验证范围见 [3.0.0 发行说明](https://github.com/cylemonVip/claude-launcher-releases/releases/tag/v3.0.0)。
 
