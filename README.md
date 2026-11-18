@@ -1,0 +1,31 @@
+# Claude 启动器
+
+为 macOS 上的官方 Claude 桌面版提供独立代理连接、网络环境检测与断网保护。
+
+安装包及更新说明统一发布在 [Releases 下载页](https://github.com/cylemonVip/claude-launcher-releases/releases)。**若下载页暂无安装附件，表示首个公开版本仍在准备中。**
+
+## 下载与安装
+
+- 当前支持 Apple Silicon Mac、macOS 14 及以上；Windows 版暂未提供。
+- 请先安装官方 Claude 桌面版，并准备自己的 HTTP／HTTPS 代理订阅。
+- 下载发行附件中的 `ClaudeLauncher-<版本>-arm64.zip`，解压后将“Claude 启动器.app”放入“应用程序”。
+- 首次打开按引导登录邮箱账号、启用网络保护，并完成 macOS 的必要授权。服务有效期与试用以账号页面显示为准。
+- 连接代理并选择节点，再点击“检测并打开 Claude”。
+
+正式安装包使用 Developer ID 签名及 Apple 公证，不需要 Xcode 或开发者账号。具体安装与保护范围见 [安装说明](INSTALL.md)。
+
+## 更新
+
+启动器中的“检查更新”会查询此仓库的最新正式版本，并提供 GitHub 下载入口。当前采用手动下载安装；替换应用前先保存工作并安全退出 Claude，再退出启动器。账号、订阅等本机数据沿用已有存储。
+
+也可以直接访问 [Releases](https://github.com/cylemonVip/claude-launcher-releases/releases) 查看版本说明。下载发行附件中的安装包；GitHub 自动生成的 `Source code` 文件只包含本仓库文档，不能安装。详细步骤见 [升级说明](UPGRADING.md)。
+
+## 保护范围
+
+本产品不修改或重签官方 Claude.app。网络保护针对当前用户的官方 Claude 及已支持的 Helper；其他应用、外部浏览器、Claude Code、MCP 和外部工具不自动纳入。断开或关闭启动器后，Claude 网络会被阻断；网络检测结果不等同于 Claude 账号安全保证。
+
+## 反馈与许可
+
+- 问题反馈请使用 [Issues](https://github.com/cylemonVip/claude-launcher-releases/issues)，附 macOS 版本、启动器版本及复现步骤。请勿公开订阅地址、验证码、个人账号或聊天内容。
+- 本仓库用于产品发行与用户文档，自研客户端和服务端源码不在本仓库公开。
+- 第三方组件按各自许可证提供，详见 [第三方组件说明](THIRD_PARTY.md)。本项目与 Anthropic 无隶属关系，不是官方 Claude 产品。
