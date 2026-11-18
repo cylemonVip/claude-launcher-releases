@@ -2,11 +2,11 @@
 
 为 macOS 上的官方 Claude 桌面版提供独立代理连接、网络环境检测与断网保护。
 
-**[下载最新版本](https://github.com/cylemonVip/claude-launcher-releases/releases/latest)** · 当前公开版本：**3.0.0** · Apple Silicon Mac／macOS 14+
+**[下载最新版本](https://github.com/cylemonVip/claude-launcher-releases/releases/latest)** · 当前公开版本 **3.0.1** · Apple Silicon Mac／macOS 14+
 
-安装包及更新说明统一发布在 [Releases 下载页](https://github.com/cylemonVip/claude-launcher-releases/releases)。3.0.0 已使用 Developer ID 签名，通过 Apple 公证并附加公证票据，Gatekeeper 与最终解包发行检查通过。
+3.0.1 修复了首次启动 Claude 时偶发的转发中断。安装包已完成 Developer ID 签名和 Apple 公证，并通过 Gatekeeper 与解包检查。[3.0.1 发行说明](https://github.com/cylemonVip/claude-launcher-releases/releases/tag/v3.0.1)
 
-这是首次公开发行，建议先小范围试用；干净 Mac 首次安装、完整系统故障矩阵和本次公网邮件登录的完整流程尚未完成实机验收。具体功能及验证范围见 [3.0.0 发行说明](https://github.com/cylemonVip/claude-launcher-releases/releases/tag/v3.0.0)。
+干净 Mac 首次安装、完整系统故障矩阵和公网邮件登录的完整流程尚未完成实机验收。初版功能及验证范围见 [3.0.0 发行说明](https://github.com/cylemonVip/claude-launcher-releases/releases/tag/v3.0.0)。
 
 ## 下载与安装
 
