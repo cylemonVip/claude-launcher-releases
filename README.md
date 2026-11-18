@@ -2,9 +2,9 @@
 
 为 macOS 上的官方 Claude 桌面版提供独立代理连接、网络环境检测与断网保护。
 
-**[下载最新版本](https://github.com/cylemonVip/claude-launcher-releases/releases/latest)** · 当前公开版本 **3.0.1** · Apple Silicon Mac／macOS 14+
+**[下载最新版本](https://github.com/cylemonVip/claude-launcher-releases/releases/latest)** · 当前公开版本 **3.1.2** · Apple Silicon Mac／macOS 14+
 
-3.0.1 修复了首次启动 Claude 时偶发的转发中断。安装包已完成 Developer ID 签名和 Apple 公证，并通过 Gatekeeper 与解包检查。[3.0.1 发行说明](https://github.com/cylemonVip/claude-launcher-releases/releases/tag/v3.0.1)
+3.1.2 支持保存多条代理订阅，连接时选择其中一条，并换上陶土橙与暖米白的新图标。安装包已完成 Developer ID 签名和 Apple 公证，并通过 Gatekeeper 与解包检查。[3.1.2 发行说明](https://github.com/cylemonVip/claude-launcher-releases/releases/tag/v3.1.2)
 
 干净 Mac 首次安装、完整系统故障矩阵和公网邮件登录的完整流程尚未完成实机验收。初版功能及验证范围见 [3.0.0 发行说明](https://github.com/cylemonVip/claude-launcher-releases/releases/tag/v3.0.0)。
 
@@ -14,7 +14,7 @@
 - 请先安装官方 Claude 桌面版，并准备自己的 HTTP／HTTPS 代理订阅。
 - 下载发行附件中的 `ClaudeLauncher-<版本>-arm64.zip`，解压后将“Claude 启动器.app”放入“应用程序”。
 - 首次打开按引导登录邮箱账号、启用网络保护，并完成 macOS 的必要授权。服务有效期与试用以账号页面显示为准。
-- 连接代理并选择节点，再点击“检测并打开 Claude”。
+- 点击“新增订阅”保存链接，选择一条订阅并连接代理，选好节点后点击“检测并打开 Claude”。
 
 正式安装包使用 Developer ID 签名及 Apple 公证，不需要 Xcode 或开发者账号。具体安装与保护范围见 [安装说明](INSTALL.md)。
 

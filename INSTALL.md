@@ -1,6 +1,6 @@
 # 安装说明
 
-请从 [GitHub Releases](https://github.com/cylemonVip/claude-launcher-releases/releases) 下载与你的 Mac 匹配的发行附件；若下载页暂无安装附件，表示首个公开版本仍在准备中。
+请从 [GitHub Releases](https://github.com/cylemonVip/claude-launcher-releases/releases) 下载与你的 Mac 匹配的发行附件。
 
 ## 系统要求
 
@@ -14,7 +14,7 @@
 1. 下载 `ClaudeLauncher-<版本>-arm64.zip` 并解压，将“Claude 启动器.app”拖入“应用程序”。
 2. 保存工作并完全退出 Claude，再打开启动器。
 3. 使用邮箱验证码登录，按安装引导批准系统网络保护组件，并安装为当前用户生成的 Claude 专用配置。系统身份验证需要你在本机完成。
-4. 粘贴订阅，点击“连接代理”，选择要使用的节点。
+4. 点击“新增订阅”，粘贴链接并保存。从订阅列表选择一条，点击“连接代理”，再选择要使用的节点。
 5. 点击“检测并打开 Claude”。查看检测结果；有问题时先处理或按提示决定是否继续。
 
 安装保护后，直接打开 Claude 时可能处于断网状态。请通过启动器完成代理连接与检测，以开放 Claude 的代理网络。
