@@ -2,9 +2,9 @@
 
 为 macOS 上的官方 Claude 桌面版提供独立代理连接、网络环境检测与断网保护。
 
-**[下载最新版本](https://github.com/cylemonVip/claude-launcher-releases/releases/latest)** · 当前公开版本 **3.2.4** · Apple Silicon Mac／macOS 14+
+**[下载最新版本](https://github.com/cylemonVip/claude-launcher-releases/releases/latest)** · 当前公开版本 **3.2.5** · Apple Silicon Mac／macOS 14+
 
-3.2.4 将主窗口、设置、流量统计和网络检测器统一为暖白、炭灰与陶土橙配色。安装包已完成 Developer ID 签名和 Apple 公证，并通过解包检查。[3.2.4 发行说明](https://github.com/cylemonVip/claude-launcher-releases/releases/tag/v3.2.4)
+3.2.5 修复冷启动 Claude 时，因 DNS 应答未能与原连接关联而偶发撤销转发的问题。修复需要启用新版系统网络保护 Guard 2.2.7。[3.2.5 发行说明](https://github.com/cylemonVip/claude-launcher-releases/releases/tag/v3.2.5)
 
 干净 Mac 首次安装、完整系统故障矩阵和公网邮件登录的完整流程尚未完成实机验收。初版功能及验证范围见 [3.0.0 发行说明](https://github.com/cylemonVip/claude-launcher-releases/releases/tag/v3.0.0)。
 
@@ -22,7 +22,7 @@
 
 启动器中的“检查更新”会查询此仓库的最新正式版本，并提供 GitHub 下载入口。当前采用手动下载安装；替换应用前先保存工作并安全退出 Claude，再退出启动器。账号、订阅等本机数据沿用已有存储。
 
-从 3.2.3 升级可沿用已启用的系统网络保护（Guard 2.2.6）。如果从更早版本升级后有保护更新提示，请在「设置 → 安装与修复」中完成确认，再连接代理。
+升级到 3.2.5 后，保持 Claude 完全退出，进入「设置 → 安装与修复」，在「启用网络保护」下点击「启用保护」以更新至 Guard 2.2.7。按 macOS 提示授权或重启，确认保护已生效后，再连接代理并点击「检测并打开 Claude」。
 
 也可以直接访问 [Releases](https://github.com/cylemonVip/claude-launcher-releases/releases) 查看版本说明。下载发行附件中的安装包；GitHub 自动生成的 `Source code` 文件只包含本仓库文档，不能安装。详细步骤见 [升级说明](UPGRADING.md)。
 
